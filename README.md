@@ -4,7 +4,8 @@ The Advanced Encryption Tool is a user-friendly desktop application built with P
 
 The interface is clean and structured with clear sections for Key Management, File Selection, and Encryption/Decryption Actions. The application’s main functionality revolves around the Fernet module from the cryptography library, which implements AES encryption with URL-safe Base64-encoded keys.
 
-How It Works
+*How It Works*
+
 Encryption Key Generation and Management:
 
 Upon starting, the tool does not have a key loaded. Users can:
@@ -33,7 +34,7 @@ Status and Feedback:
 
 The application provides real-time feedback through a status bar at the bottom, showing current actions and results. Additionally, all critical steps (key generation, encryption, file saving) are accompanied by message boxes to confirm success or alert on errors.
 
-Key Features:
+*Key Features:*
 
 Symmetric AES encryption with Fernet
 
@@ -47,8 +48,14 @@ No command-line usage needed
 
 Real-time status updates
 
-Security Note:
+*Security Note:*
 
 The security of encrypted files is tightly linked to the encryption key. If the key is lost, the encrypted data cannot be recovered. Users are encouraged to save their keys securely in external storage or password managers.
 
 This application offers a perfect balance between strong encryption practices and usability, making it a powerful tool for both technical and non-technical users who need to secure their data with minimal effort.
+
+*OUTPUT*
+Encryption of a file:
+<img width="1117" height="722" alt="Image" src="https://github.com/user-attachments/assets/80cda0b1-7b2b-41ad-91a6-fc8e98099d27" />
+Decryption of a file:
+<img width="1181" height="717" alt="Image" src="https://github.com/user-attachments/assets/e59c7715-ec3d-414d-aca9-ac44871f1bea" />
