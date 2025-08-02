@@ -55,7 +55,9 @@ The security of encrypted files is tightly linked to the encryption key. If the 
 This application offers a perfect balance between strong encryption practices and usability, making it a powerful tool for both technical and non-technical users who need to secure their data with minimal effort.
 
 *OUTPUT*
+
 Encryption of a file:
 <img width="1117" height="722" alt="Image" src="https://github.com/user-attachments/assets/80cda0b1-7b2b-41ad-91a6-fc8e98099d27" />
+
 Decryption of a file:
 <img width="1181" height="717" alt="Image" src="https://github.com/user-attachments/assets/e59c7715-ec3d-414d-aca9-ac44871f1bea" />
